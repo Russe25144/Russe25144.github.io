@@ -1,0 +1,30 @@
+body {
+  font-family: ESP, Calibri, Arial;
+background: linear-gradient(to bottom right, #1D428A 0%, #C4CED4 50%, #FFA300 100%)
+}
+ h1 {
+   text-align: center;
+font-family: ESP Font, Candara, Calibri, Arial;
+}
+#content {
+  margin: auto;
+ width: 500px;
+text-align: center;}
+.segment{
+  padding: 10px;
+  border-width: 3px;
+  border-color: #C4CED4;
+  border-style: groove;
+}
+p {
+  margin-top: 0px;
+}
+.segment img {
+max-width: 275px;
+float: left;
+margin: 0px 5px 5px 0px
+}
+
+.segment .centerimg{
+float: right;
+}
