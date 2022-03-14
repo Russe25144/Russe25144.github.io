@@ -21,10 +21,14 @@ p {
 }
 .segment img {
 max-width: 275px;
-float: left;
+
 margin: 0px 5px 5px 0px
 }
 
-.segment .centerimg{
+.segment .rightimg{
+float: left;
+}
+
+.segment .leftimg{
 float: right;
 }

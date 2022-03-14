@@ -6,5 +6,7 @@ null,
 {"id":4,"battlerName":"Actor2_7","characterIndex":6,"characterName":"Actor2","classId":4,"equips":[4,0,2,3,4],"faceIndex":6,"faceName":"Actor2","traits":[],"initialLevel":1,"maxLevel":99,"name":"Lucius","nickname":"","note":"","profile":""},
 {"id":5,"battlerName":"battle","characterIndex":0,"characterName":"walk","classId":1,"equips":[0,0,0,0,0],"faceIndex":0,"faceName":"Main","traits":[],"initialLevel":1,"maxLevel":99,"name":"Russell","nickname":"Russ","note":"","profile":""},
 {"id":6,"battlerName":"nani battle","characterIndex":0,"characterName":"nani walk","classId":2,"equips":[0,0,0,0,0],"faceIndex":0,"faceName":"nani","traits":[],"initialLevel":1,"maxLevel":99,"name":"Nataliya","nickname":"Nani","note":"","profile":""},
-{"id":7,"battlerName":"","characterIndex":0,"characterName":"","classId":1,"equips":[0,0,0,0,0],"faceIndex":0,"faceName":"","traits":[],"initialLevel":1,"maxLevel":99,"name":"","nickname":"","note":"","profile":""}
+{"id":7,"battlerName":"","characterIndex":0,"characterName":"Nature","classId":5,"equips":[0,0,0,0,0],"faceIndex":0,"faceName":"Nature","traits":[],"initialLevel":5,"maxLevel":99,"name":"Butterdog","nickname":"","note":"","profile":""},
+{"id":8,"battlerName":"","characterIndex":0,"characterName":"","classId":1,"equips":[0,0,0,0,0],"faceIndex":0,"faceName":"","traits":[],"initialLevel":1,"maxLevel":99,"name":"","nickname":"","note":"","profile":""},
+{"id":9,"battlerName":"","characterIndex":0,"characterName":"","classId":1,"equips":[0,0,0,0,0],"faceIndex":5,"faceName":"People3","traits":[],"initialLevel":1,"maxLevel":99,"name":"Land Keeper","nickname":"","note":"","profile":""}
 ]
