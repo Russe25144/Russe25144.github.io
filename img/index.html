@@ -1,29 +1,56 @@
-<!DOCTYPE html>
 <html>
-    <head>
-        <meta charset="UTF-8">
-        <meta name="apple-mobile-web-app-capable" content="yes">
-        <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
-        <meta name="viewport" content="user-scalable=no">
-        <link rel="icon" href="icon/icon.png" type="image/png">
-        <link rel="apple-touch-icon" href="icon/icon.png">
-        <link rel="stylesheet" type="text/css" href="fonts/gamefont.css">
-        <title>Get To School 3 </title>
-    </head>
-    <body style="background-color: black">
-        <script type="text/javascript" src="js/libs/pixi.js"></script>
-        <script type="text/javascript" src="js/libs/pixi-tilemap.js"></script>
-        <script type="text/javascript" src="js/libs/pixi-picture.js"></script>
-        <script type="text/javascript" src="js/libs/fpsmeter.js"></script>
-        <script type="text/javascript" src="js/libs/lz-string.js"></script>
-        <script type="text/javascript" src="js/libs/iphone-inline-video.browser.js"></script>
-        <script type="text/javascript" src="js/rpg_core.js"></script>
-        <script type="text/javascript" src="js/rpg_managers.js"></script>
-        <script type="text/javascript" src="js/rpg_objects.js"></script>
-        <script type="text/javascript" src="js/rpg_scenes.js"></script>
-        <script type="text/javascript" src="js/rpg_sprites.js"></script>
-        <script type="text/javascript" src="js/rpg_windows.js"></script>
-        <script type="text/javascript" src="js/plugins.js"></script>
-        <script type="text/javascript" src="js/main.js"></script>
-    </body>
+  <head>
+    <title>My Webpage</title>
+    <link rel="stylesheet" href="css/style.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="javascript/index.js">
+
+    function generateQuote() {
+      var randomNumber = Math.floor( Math.random() * 3);
+      var phrases = ['Hello', 'Hallo', 'Здравствуйте'];
+      var JSquoteBox = document.getElementById("quoteBox")
+      JSquoteBox.innerText = phrases[randomNumber];
+
+    }
+
+    </script>
+  </head>
+  <body>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+<div class="topnav" id="myTopnav">
+  <a href="#home" class="active">Home</a>
+  <a href="game.html">Get To School 3!</a>
+  <a href="jsfighter.html">JSFighter</a>
+  <a href="#about">About</a>
+  <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+    <i class="fa fa-bars"></i>
+  </a>
+</div>
+
+    <div id="content">
+      <div id="headerBox">
+        <h1>My Webpage</h1>
+        <p id="quoteBox" onclick="generateQuote()">Hello</p>
+</div>
+<div class="segment">
+  <img src="img/stephen-curry-pointing.jpg" alt="">
+
+  <p>
+    This is my website! In here you will find everything I have done in this passed Marking period. Up top in the menu bar you can see the games we have worked on/made!
+    These are pictures of my favorite basketball player Stephen Curry. He has been one of my biggest inspirations for the longest time.
+</p>
+<img src="img/curry.jpg" alt="" class="rightimg">
+<p>
+  Above you will see varius options...
+  One of them is Get To School 3 my game! This is all about getting the character to school (Unfinished). But nun the less that is still the objective. The game comes with a working Town, Rock Pass, Caves, Mazes etc.
+  This game has alot of my hardwork in it, I hope you enjoy!
+</p>
+</div class="segment">
+<h3> Get To School 3
+<a href="game.html">Play My Game!</a>
+<a href="http://192.168.10.53:5000/sfx?file=bruh">bruh</a>
+</div>
+<script src="js/konami.js"></script>
+  </body>
 </html>
